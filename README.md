@@ -1,4 +1,5 @@
 🛒 E-Commerce App for Men, Women & Kids
+
 A modern and responsive full-stack e-commerce platform for clothing, featuring a wide range of products for men, women, and kids. The application provides a seamless shopping experience with a powerful search function, a real-time shopping cart, and user authentication.
 
 ✨ Features
