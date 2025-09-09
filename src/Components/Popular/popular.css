@@ -1,0 +1,31 @@
+.popular {
+  padding: 20px;
+  background: linear-gradient(180deg, #000000 0%, #e1ffea2b 60%);
+  margin-bottom: 60px;
+}
+
+.popular h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 60px;
+    font-weight: 900;position: relative;
+}
+.popular h1::before{
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    ;
+     height: 5px;
+    background: #ffffff;
+    width: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ 
+
+.popular .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 20px;
+}

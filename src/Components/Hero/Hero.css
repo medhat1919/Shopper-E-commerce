@@ -1,0 +1,99 @@
+ /* Hero.css */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+     padding: 0 100px;
+     background: linear-gradient(180deg, #000000 0%, #e1ffea22 60%);
+    gap: 20px;
+}
+
+.heroleft {
+    flex: 1;
+    display: flex; /* إضافة هذا السطر */
+    align-items: flex-start; /* تعديل هذا السطر */
+    flex-direction: column; /* تعديل هذا السطر */
+    justify-content: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+/*
+.heroleft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+*/
+.heroleft h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #fffdfd;
+}
+
+.heroleft h2 span {
+    font-weight: 700;
+    color: #ff4141;
+}
+
+.heroleft .mid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+.heroleft .mid p {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1;
+     margin: 15px;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+    text-transform: uppercase;
+
+}
+
+.heroleft .handimg {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.heroleft .handimg img {
+    width: 65px;
+}
+
+.heroleft button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 250px;
+    height: 60px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.heroleft button:hover {
+    background: #e63939;
+    transform: translateY(-5px);
+}
+
+.heroright {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroright img {
+ width: 400px; margin-top: 20px;}

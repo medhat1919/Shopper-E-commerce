@@ -1,0 +1,70 @@
+.details{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-top: 50px;
+    align-items: center;
+}
+.left{
+    display: flex;
+   ;
+    gap: 20px;
+}
+.left .images{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left .images img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.left .image img{
+    height: 470px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start; 
+}
+.right .price h1{color: white;font-size: 40px;font-weight: bolder;
+
+}
+.right .price p{
+    color: grey;text-decoration: line-through;
+    font-size: 28px;
+}
+
+.size h1{
+    font-weight: bold; font-size: 30px;
+}
+.size span{
+   margin: 5px ;margin-bottom: 30px ;padding: 10px 20px;background: white;color: black;
+    border-radius: 20px;font-weight: bold;cursor: pointer;transition: 0.3s;
+
+}
+.size span:hover{
+    background: black;color: white;
+}
+.btn{
+    margin-top: 30px;
+}
+.btn  button {
+    padding: 10px 25px;
+    background-color: #e2b24c;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn button:hover {
+    background-color: #ffffff;
+    color: #e2b24c;
+}

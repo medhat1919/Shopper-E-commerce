@@ -1,0 +1,96 @@
+.loginpage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #000000 0%, #e1ffea0c 60%);
+    color: white;overflow: hidden;margin: 0;
+}
+
+.loginpage .logincont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+       width: 400px;
+    height: 500px;
+    border-radius: 12px;
+    padding: 20px;
+    background: linear-gradient(180deg, #2c2c2f , #e1ffea2b );
+    box-shadow:  0px 0px 10px #fffafa;
+    border: 0.5px solid #e2b24c;
+}
+
+.loginpage .logincont h1{
+    font-size: 60px;
+    font-weight: 900;
+    position: relative;
+    margin: 0;
+}
+ .logincont .input{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+ }
+ .input input{
+     padding: 10px 20px;
+     border-radius: 40px;
+     border: 1px solid #888;outline: none;
+     background-color: transparent;
+     color: white;
+ }
+ .input input::placeholder{
+     color: #ccc;
+ }
+ .logincont .btn{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .logincont .btn button{
+     padding: 10px 25px;
+     background-color: #e2b24c;
+     color: #000000;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+     font-weight: bold;
+     font-size: 16px;
+     transition: background-color 0.3s, color 0.3s;
+ }
+ .logincont .btn button:hover{
+     background-color: #ffffff;
+     color: #e2b24c;
+ }
+ .logincont .btn button:active{
+     background-color: #ffffff;
+     color: #e2b24c;
+ }
+
+ .btn .have{
+     display: flex;
+     
+    }
+ .have p{
+     font-weight: 600;
+ }
+ .have button{
+     padding: 10px 25px;
+     background-color: transparent;
+     color: #e2b24c;
+     border: 1px solid #e2b24c;
+     border-radius: 8px;
+     cursor: pointer;
+     font-weight: bold;
+     font-size: 16px;
+     transition: background-color 0.3s, color 0.3s;
+ }
+ .have button:hover{
+     background-color: #ffffff;
+     color: #e2b24c;
+     text-decoration: none;
+ }
+ .finale{
+     display: flex;
+     
+  }

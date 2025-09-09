@@ -1,0 +1,113 @@
+ .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 60%;
+    max-width: 900px;
+    height: 40vh;
+    background: linear-gradient(180deg, #000000 0%, #e1ffea2b 60%);
+    color: #ffffff;
+    margin: 100px auto;
+    border-radius: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.newsletter h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.newsletter p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #cccccc;
+}
+
+.newsletter .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 720px;
+    height: 70px;
+    border: 1px solid #e2b24c;
+    border-radius: 60px;
+     margin-bottom: 20px;
+    /* Removed padding: 30px 20px; */
+}
+
+.newsletter input[type="email"] {
+    flex-grow: 1;
+    width: 500px;
+    height: 50px;
+    margin-left: 30px;
+     border: none;
+    background: transparent;
+    color: #ffffff;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+     /* Removed extra padding here as it was causing misalignment */
+}
+
+.newsletter input[type="email"]::placeholder {
+    color: #aaa;
+}
+
+.newsletter button {
+    /* Adjusted padding to fit inside the 70px height */
+    
+    width: 210px;
+    height: 100%;
+     background-color: #ccc8c0;
+    color: #000000;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #ffffff;
+    color: #e2b24c;
+}
+
+/* التجاوب مع الشاشات الصغيرة */
+@media (max-width: 768px) {
+    .newsletter {
+        width: 90%;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .newsletter h1 {
+        font-size: 28px;
+    }
+
+    .newsletter .btn {
+        flex-direction: column;
+        height: auto;
+        border: none;
+        width: 100%;
+    }
+
+    .newsletter input[type="email"] {
+        width: 100%;
+        height: 50px;
+        border: 1px solid #e2b24c;
+        border-radius: 60px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .newsletter button {
+        width: 100%;
+        height: 50px;
+    }
+}
