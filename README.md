@@ -28,3 +28,9 @@ Styling:
 
 CSS: For a utility-first, modern styling approach.
 
+Open the index.html file in your preferred web browser.
+
+🔗 Live Demo & Repository Live Demo: https://medhat1919.github.io/Shopper-E-commerce/
+
+Repo: https://github.com/medhat1919/Shopper-E-commerce.git
+
